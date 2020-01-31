@@ -1,0 +1,65 @@
+body, html{
+	background-image: url("/img/background.jpg"); 
+	background-size: 100%;
+	transition: 0.5s;
+}
+
+.tblind thead{
+	text-align: center;
+}
+
+.tblind tbody{
+	text-align: center;
+}
+
+.card {
+	background-color: #000000ba;
+	color: white;
+	border: 2px solid white;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.card-header {
+	font-size: 30px;
+	font-family: cursive;
+	border-bottom: 2px solid white;
+}
+
+.pagination ul li {
+	background-color: black;
+	color: white;
+}
+
+.sbm {
+	background-color: black;
+	border: 1px solid white;
+	color: white;
+	padding: 5px 20px;
+	transition: 0.5s;
+}
+
+.sbm:hover {
+	background-color: white;
+	color: black;
+	transition: 0.5s;
+}
+
+.modal-content{
+	background: black;
+	border: 1px solid white;
+	color: white;
+}
+
+.modal-header h5{
+	text-align: center;
+	width: 100%;
+}
+
+.form-control[readonly]{
+	background-color: black;
+	opacity: unset;
+	color: white;
+	border: unset;
+	border-bottom: 1px solid grey;
+}
